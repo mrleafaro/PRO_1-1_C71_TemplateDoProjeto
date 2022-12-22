@@ -1,9 +1,13 @@
 import firebase from "firebase";
 require("@firebase/firestore");
 
-var firebaseConfig = {
-  //Cole sua Configuração do Firebase aqui
-  
+const firebaseConfig = {
+  apiKey: "AIzaSyBgT0UfOOkdQ_cZvy1hB8Cf-0anGznDwcc",
+  authDomain: "bicicletasmaneiraselegais.firebaseapp.com",
+  projectId: "bicicletasmaneiraselegais",
+  storageBucket: "bicicletasmaneiraselegais.appspot.com",
+  messagingSenderId: "50833333633",
+  appId: "1:50833333633:web:13b255b525c343be1e9c80"
 };
 
 firebase.initializeApp(firebaseConfig);
